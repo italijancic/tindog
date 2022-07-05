@@ -1,1 +1,3 @@
-TinDog Starting Files
+# :dog: Tinidog
+## :rocket: Project descriptión
+
