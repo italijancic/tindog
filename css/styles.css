@@ -5,7 +5,7 @@ body {
 
 /* Custom container-fluid */
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 
 /* h1 font style */
@@ -69,13 +69,21 @@ p {
 /* Title img */
 .title-img {
 	/* width: 60%; */
-	/* height: 60%; */
+	height: 50%;
 	transform: rotate(25deg);
+	position: absolute;
+	right: 25%;
 }
 
 /* Features section */
 #features {
 	padding: 7% 15%;
+	background-color: #fff;
+	/* relative: keep natural html flow layout */
+	position: relative;
+	/* In this case is the same use z-index or not, becouse both elements are positioned
+	and one is over the nex element on html layout */
+	z-index: 1;
 }
 
 .feature-box {
