@@ -143,18 +143,24 @@ p {
 	background-color: #ff4c68;
 	text-align: center;
 	color: #fff;
-	padding: 5% 0 0 0;
+	padding: 7% 15%;
+}
+
+.cta-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
 }
 
 /* Footer */
 #footer {
-	color: #8f8f8f;
 	text-align: center;
-	padding: 5%;
+	padding: 7% 15%;
 }
 
-footer i {
-	padding: 0 1% 2%;
+.social-icon {
+	margin: 20px 10px;
 }
 
 
